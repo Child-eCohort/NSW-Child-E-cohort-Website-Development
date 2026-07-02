@@ -7,7 +7,7 @@ The team behind the NSW Child E Cohort Program. *[Investigators, staff, and stud
 ## Program Lead
 
 ::: {.profile-card}
-![](assets/images/kathleen-falster.jpg)
+<div class="avatar"><img src="assets/images/kathleen-falster.jpg" alt="Photo of Associate Professor Kathleen Falster"></div>
 
 <div>
 ### Associate Professor Kathleen Falster
@@ -25,7 +25,7 @@ PhD, MPH, BAppSc(Hons). An epidemiologist with expertise in translational resear
 ::: {.card-grid}
 
 ::: {.profile-card}
-![](assets/images/avatar-placeholder.svg)
+<div class="avatar"><img src="assets/images/avatar-placeholder.svg" alt="Placeholder avatar"></div>
 
 <div>
 ### [Placeholder Name]
@@ -35,7 +35,7 @@ PhD, MPH, BAppSc(Hons). An epidemiologist with expertise in translational resear
 :::
 
 ::: {.profile-card}
-![](assets/images/avatar-placeholder.svg)
+<div class="avatar"><img src="assets/images/avatar-placeholder.svg" alt="Placeholder avatar"></div>
 
 <div>
 ### [Placeholder Name]
@@ -51,7 +51,7 @@ PhD, MPH, BAppSc(Hons). An epidemiologist with expertise in translational resear
 ::: {.card-grid}
 
 ::: {.profile-card}
-![](assets/images/avatar-placeholder.svg)
+<div class="avatar"><img src="assets/images/avatar-placeholder.svg" alt="Placeholder avatar"></div>
 
 <div>
 ### [Placeholder Name]
@@ -61,7 +61,7 @@ PhD, MPH, BAppSc(Hons). An epidemiologist with expertise in translational resear
 :::
 
 ::: {.profile-card}
-![](assets/images/avatar-placeholder.svg)
+<div class="avatar"><img src="assets/images/avatar-placeholder.svg" alt="Placeholder avatar"></div>
 
 <div>
 ### [Placeholder Name]
