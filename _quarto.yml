@@ -10,7 +10,7 @@ website:
   navbar:
     logo: assets/images/logo.svg
     background: dark
-    left:
+    right:
       - text: "Mission"
         href: mission.qmd
       - text: "People"

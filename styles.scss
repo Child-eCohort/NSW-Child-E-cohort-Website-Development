@@ -31,21 +31,20 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   height: 36px;
 }
 
-// Hero banner on the home page
-.hero-banner {
-  background-color: $navy;
-  color: $white;
-  padding: 4rem 2rem;
-  text-align: center;
-  border-bottom: 6px solid $accent;
-  margin-bottom: 2rem;
+// Homepage intro: short text on the left, large logo mark on the right —
+// mirrors silviacanelon.com's contained, text-left/graphic-right hero.
+.hero-intro {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 1.5rem 0 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid $grey-light;
+}
 
-  .hero-logo {
-    display: block;
-    width: 150px;
-    height: auto;
-    margin: 0 auto 1.25rem;
-  }
+.hero-intro-text {
+  flex: 2 1 380px;
 
   .hero-kicker {
     display: block;
@@ -58,15 +57,32 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   }
 
   h1 {
-    color: $white;
     font-weight: 700;
+    margin-bottom: 0.25rem;
   }
 
-  p {
-    font-size: 1.15rem;
-    max-width: 40em;
-    margin: 0.5rem auto 0;
-    color: lighten($slate, 15%);
+  .hero-subtitle {
+    color: $slate;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 0.75rem;
+  }
+
+  p:not(.hero-subtitle) {
+    font-size: 1.05rem;
+    max-width: 38em;
+  }
+}
+
+.hero-intro-graphic {
+  flex: 1 1 220px;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
   }
 }
 

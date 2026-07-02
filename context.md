@@ -3,7 +3,7 @@
 ## Background
 This repo builds the public website for the **NSW Child E Cohort Program**, based in the UNSW School of Population Health and led by Dr Kathleen Falster.
 
-The design/UX reference point is [spcanelon/silvia](https://github.com/spcanelon/silvia) — a personal academic site built with **Quarto**, inspired by the Hugo Apéro theme. Navbar sections must be, in order: **Projects, People, Mission, Publications, Media**.
+The design/UX reference point is [spcanelon/silvia](https://github.com/spcanelon/silvia) / [silviacanelon.com](https://silviacanelon.com/) — a personal academic site built with **Quarto**, inspired by the Hugo Apéro theme. Navbar sections are, in order: **Mission, People, Projects, Publications, Media**.
 
 ## Decisions
 | Decision | Choice | Why |
@@ -44,3 +44,4 @@ references.bib           placeholder BibTeX entries for Publications page
 - 2026-07-02: Fixed inconsistent card border colors (was cycling accent/navy/slate per card on the homepage only) — all `.info-card` boxes now use one consistent border treatment (slate side/bottom border, accent top border) on every page. Removed the now-unused `.home-highlights` class from `index.qmd`.
 - 2026-07-02: Fixed double-underlined card headings (browser's default link underline stacking with the custom colored `border-bottom`) by disabling the default `<a>` text-decoration inside `.info-card h3` — only the single colored underline remains.
 - 2026-07-02: Replaced the linked-data-path logo mark with a new design: three growing silhouettes (no facial features, just shape) from infant (accent blue, smallest) to child (slate, medium) to teenager (navy, tallest), representing the Program's early-life development focus. Applied to `logo-mark.svg` (hero), `logo.svg` (navbar), and `favicon.svg`.
+- 2026-07-02: Restyled the site to follow [silviacanelon.com](https://silviacanelon.com/)'s layout, keeping our navy/slate/cornflower-blue palette: navbar section links moved from the `left:` group to the `right:` group in `_quarto.yml` so they sit as a bar on the top right (logo stays top left, matching the reference); homepage hero replaced the full-bleed navy banner with a contained, light-background intro (short heading/subtitle/paragraph on the left, large logo mark on the right) and dropped `page-layout: full` so the page uses Quarto's standard contained width. Also fixed a pre-existing bug found along the way: `logo.svg` had baked-in "NSW Child E Cohort" text that duplicated the navbar's separate auto-generated site title — made `logo.svg` icon-only.
