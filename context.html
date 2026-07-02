@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3275492d81c674a90d0a6e46a3b1a9f3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cda270ce4919d4e6ae74f8daae9325ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -199,6 +199,7 @@ references.bib           placeholder BibTeX entries for Publications page</code>
 <ol type="1">
 <li><strong>Install the Quarto CLI</strong> locally (https://quarto.org/docs/get-started/) to run <code>quarto preview</code>/<code>quarto render</code> on this machine — it wasn’t detected during this build. CI renders independently of this.</li>
 <li><strong>Replace remaining placeholder content</strong>: team bios/photos, actual publications (<code>references.bib</code>), and media/news items. Projects (<code>projects.qmd</code>) now has real content — see change log below.</li>
+<li><strong>Optimize <code>assets/images/kathleen-falster.jpg</code></strong>: it’s the original ~1MB, 2977×3407px file pulled from her UNSW profile — no image-resizing tool was available in this environment to shrink it. Browsers still display it fine (CSS crops it to a 96px circle), but resizing/compressing it would reduce page load size.</li>
 </ol>
 </section>
 <section id="change-log" class="level2">
@@ -219,6 +220,8 @@ references.bib           placeholder BibTeX entries for Publications page</code>
 <li>2026-07-02: Logo redesigned again per a reference image (embroidered patch of colorful children holding hands): now six child silhouettes of ascending height holding hands, in a light-to-navy blue gradient (<code>#b3cdf5</code> → <code>#8fb3ee</code> → <code>#6495ed</code> → <code>#4472c4</code> → <code>#23408a</code> → <code>#00205b</code> — endpoints reuse the existing accent/navy brand colors). Full 6-figure version used in the homepage hero (<code>logo-mark.svg</code>); a simplified 3-figure version (light/accent/navy) used for the navbar (<code>logo.svg</code>) and favicon at small size.</li>
 <li>2026-07-02: Added a small flat icon above each homepage highlight card’s title (<code>assets/images/icon-mission.svg</code>, <code>icon-people.svg</code>, <code>icon-projects.svg</code>, <code>icon-publications.svg</code>, <code>icon-media.svg</code>) — compass, linked figures, bar chart, open book, speech bubble respectively — in the site’s navy/slate/accent palette.</li>
 <li>2026-07-02: People page’s Dr Falster entry replaced with her real profile (title, bio, research interests, contact/profile links) sourced from https://www.unsw.edu.au/staff/kathleen-falster. Other team entries (investigators, staff, students) remain placeholders pending real names/bios.</li>
+<li>2026-07-02: Downloaded Dr Falster’s real profile photo from her UNSW staff page (<code>assets/images/kathleen-falster.jpg</code>) and swapped it in for the placeholder avatar on the People page.</li>
+<li>2026-07-02: Fixed the homepage highlight cards rendering <code>###</code> as literal text instead of a heading — the icon image and the <code>### [Title]</code> line had no blank line between them, so Pandoc treated it as a paragraph continuation rather than an ATX heading. Added blank lines around each heading/paragraph in <code>index.qmd</code>, and increased the card title size/weight (<code>font-size: 1.4rem; font-weight: 700;</code>) in <code>styles.scss</code>.</li>
 </ul>
 
 
