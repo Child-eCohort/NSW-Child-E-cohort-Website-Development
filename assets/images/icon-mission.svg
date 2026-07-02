@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Compass icon representing the Program's mission">
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#00205b" stroke-width="3"/>
+  <polygon points="32,14 38,32 26,32" fill="#6495ed"/>
+  <polygon points="26,32 38,32 32,50" fill="#00205b"/>
+  <circle cx="32" cy="32" r="3" fill="#00205b"/>
+</svg>

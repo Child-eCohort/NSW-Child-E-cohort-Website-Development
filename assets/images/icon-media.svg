@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Speech bubble with text lines representing news and media coverage">
+  <rect x="10" y="14" width="44" height="28" rx="8" fill="#00205b"/>
+  <polygon points="18,42 18,50 26,42" fill="#00205b"/>
+  <rect x="18" y="22" width="28" height="3" rx="1.5" fill="#ffffff"/>
+  <rect x="18" y="29" width="20" height="3" rx="1.5" fill="#ffffff"/>
+  <rect x="18" y="36" width="24" height="3" rx="1.5" fill="#6495ed"/>
+</svg>
