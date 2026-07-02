@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "The team behind the NSW Child E Cohort Program. [Placeholder content — replace bios and photos with real team information.]"
+  },
+  {
+    "objectID": "people.html#program-lead",
+    "href": "people.html#program-lead",
+    "title": "People",
+    "section": "Program Lead",
+    "text": "Program Lead\n\n\n\nDr Kathleen Falster\n\nProgram Lead\n\n[Placeholder bio — replace with a short biography, research interests, and links (e.g. UNSW profile, ORCID).]"
+  },
+  {
+    "objectID": "people.html#investigators",
+    "href": "people.html#investigators",
+    "title": "People",
+    "section": "Investigators",
+    "text": "Investigators\n\n\n\n\n[Placeholder Name]\n\nChief Investigator\n\n[Placeholder bio.]\n\n\n\n\n\n[Placeholder Name]\n\nAssociate Investigator\n\n[Placeholder bio.]"
+  },
+  {
+    "objectID": "people.html#staff-students",
+    "href": "people.html#staff-students",
+    "title": "People",
+    "section": "Staff & Students",
+    "text": "Staff & Students\n\n\n\n\n[Placeholder Name]\n\nPostdoctoral Fellow\n\n[Placeholder bio.]\n\n\n\n\n\n[Placeholder Name]\n\nPhD Candidate\n\n[Placeholder bio.]"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Papers and reports produced by the NSW Child E Cohort Program. [Placeholder entries — replace references.bib with the Program’s real publications.]\nTo add a new publication, add a BibTeX entry to references.bib — no other changes are needed; this page and its reference list update automatically.\n\n\nFalster, Kathleen, and Author Placeholder. 2024. “Placeholder Title: Early-Life Determinants of Child Health Outcomes in NSW.” Placeholder Journal of Population Health 1 (1): 1–10. https://doi.org/10.0000/placeholder.2024.001.\n\n\nPlaceholder, Author. 2023. “Placeholder Title: Education and Health Data Linkage in the NSW Child e Cohort.” Placeholder Conference on Population Health, 50–55.\n\n\nPlaceholder, Author, and Kathleen Falster. 2023. “Placeholder Title: Linking Perinatal and Administrative Data for Cohort Research.” Placeholder Journal of Epidemiology 2 (3): 100–112. https://doi.org/10.0000/placeholder.2023.002."
+  },
+  {
+    "objectID": "context.html",
+    "href": "context.html",
+    "title": "Project Context: NSW Child E Cohort Website",
+    "section": "",
+    "text": "This repo builds the public website for the NSW Child E Cohort Program, based in the UNSW School of Population Health and led by Dr Kathleen Falster.\nThe design/UX reference point is spcanelon/silvia — a personal academic site built with Quarto, inspired by the Hugo Apéro theme. Navbar sections must be, in order: Projects, People, Mission, Publications, Media.\n\n\n\n\n\n\n\n\n\n\n\nDecision\nChoice\nWhy\n\n\n\n\nFramework\nQuarto\nMatches the reference site; markdown/YAML-based so lab members can add people/publications/projects without touching code.\n\n\nHosting\nGitHub Pages\nFree, deploys straight from this repo via GitHub Actions.\n\n\nInitial content\nPlaceholders\nStructure and styling built now; team bios, real publications, project descriptions, and media items to be swapped in later.\n\n\nBranding\nUNSW branding\nUNSW Yellow/Black core palette adapted into the reference site’s clean academic layout, rather than reusing the reference site’s own colors.\n\n\n\n\n\n\n_quarto.yml              site config: navbar order, theme, output\nindex.qmd                Home: hero + highlight cards linking to the 5 sections\nmission.qmd              Program mission/aims/background\nprojects.qmd             Research project listing (placeholder cards)\npeople.qmd               Team grid (lead, investigators, staff/students)\npublications.qmd         Publication list, rendered from references.bib\nmedia.qmd                News/media mentions\nstyles.scss              Custom SCSS theme (UNSW colors)\nassets/images/           logo, favicon, hero image, photo placeholders\n.github/workflows/publish.yml   GitHub Actions: render + deploy to gh-pages\nreferences.bib           placeholder BibTeX entries for Publications page\n\n\n\n\nVerify UNSW brand hex codes against the official UNSW brand toolkit before public launch — this build uses commonly published UNSW Yellow (#FFD100) / Black as a reasonable placeholder, not a fetched brand PDF.\nPoint GitHub Pages at the gh-pages branch in the repo’s Settings → Pages (one-time manual step after the first Actions run creates that branch).\nInstall the Quarto CLI locally (https://quarto.org/docs/get-started/) to run quarto preview/quarto render on this machine — it wasn’t detected during this build. CI renders independently of this.\nReplace placeholder content: team bios/photos, real project descriptions, actual publications (references.bib), and media/news items."
+  },
+  {
+    "objectID": "context.html#background",
+    "href": "context.html#background",
+    "title": "Project Context: NSW Child E Cohort Website",
+    "section": "",
+    "text": "This repo builds the public website for the NSW Child E Cohort Program, based in the UNSW School of Population Health and led by Dr Kathleen Falster.\nThe design/UX reference point is spcanelon/silvia — a personal academic site built with Quarto, inspired by the Hugo Apéro theme. Navbar sections must be, in order: Projects, People, Mission, Publications, Media."
+  },
+  {
+    "objectID": "context.html#decisions",
+    "href": "context.html#decisions",
+    "title": "Project Context: NSW Child E Cohort Website",
+    "section": "",
+    "text": "Decision\nChoice\nWhy\n\n\n\n\nFramework\nQuarto\nMatches the reference site; markdown/YAML-based so lab members can add people/publications/projects without touching code.\n\n\nHosting\nGitHub Pages\nFree, deploys straight from this repo via GitHub Actions.\n\n\nInitial content\nPlaceholders\nStructure and styling built now; team bios, real publications, project descriptions, and media items to be swapped in later.\n\n\nBranding\nUNSW branding\nUNSW Yellow/Black core palette adapted into the reference site’s clean academic layout, rather than reusing the reference site’s own colors."
+  },
+  {
+    "objectID": "context.html#site-structure",
+    "href": "context.html#site-structure",
+    "title": "Project Context: NSW Child E Cohort Website",
+    "section": "",
+    "text": "_quarto.yml              site config: navbar order, theme, output\nindex.qmd                Home: hero + highlight cards linking to the 5 sections\nmission.qmd              Program mission/aims/background\nprojects.qmd             Research project listing (placeholder cards)\npeople.qmd               Team grid (lead, investigators, staff/students)\npublications.qmd         Publication list, rendered from references.bib\nmedia.qmd                News/media mentions\nstyles.scss              Custom SCSS theme (UNSW colors)\nassets/images/           logo, favicon, hero image, photo placeholders\n.github/workflows/publish.yml   GitHub Actions: render + deploy to gh-pages\nreferences.bib           placeholder BibTeX entries for Publications page"
+  },
+  {
+    "objectID": "context.html#known-follow-ups-things-a-human-needs-to-do",
+    "href": "context.html#known-follow-ups-things-a-human-needs-to-do",
+    "title": "Project Context: NSW Child E Cohort Website",
+    "section": "",
+    "text": "Verify UNSW brand hex codes against the official UNSW brand toolkit before public launch — this build uses commonly published UNSW Yellow (#FFD100) / Black as a reasonable placeholder, not a fetched brand PDF.\nPoint GitHub Pages at the gh-pages branch in the repo’s Settings → Pages (one-time manual step after the first Actions run creates that branch).\nInstall the Quarto CLI locally (https://quarto.org/docs/get-started/) to run quarto preview/quarto render on this machine — it wasn’t detected during this build. CI renders independently of this.\nReplace placeholder content: team bios/photos, real project descriptions, actual publications (references.bib), and media/news items."
+  },
+  {
+    "objectID": "mission.html",
+    "href": "mission.html",
+    "title": "Mission",
+    "section": "",
+    "text": "[Placeholder — replace with the Program’s actual mission statement.]\nThe NSW Child E Cohort Program brings together linked, population-level administrative and health data to understand the early-life factors that shape child health, development, and educational outcomes across New South Wales. The Program is based in the UNSW School of Population Health and led by Dr Kathleen Falster."
+  },
+  {
+    "objectID": "mission.html#about-the-program",
+    "href": "mission.html#about-the-program",
+    "title": "Mission",
+    "section": "",
+    "text": "[Placeholder — replace with the Program’s actual mission statement.]\nThe NSW Child E Cohort Program brings together linked, population-level administrative and health data to understand the early-life factors that shape child health, development, and educational outcomes across New South Wales. The Program is based in the UNSW School of Population Health and led by Dr Kathleen Falster."
+  },
+  {
+    "objectID": "mission.html#our-aims",
+    "href": "mission.html#our-aims",
+    "title": "Mission",
+    "section": "Our aims",
+    "text": "Our aims\n\n[Placeholder aim 1 — e.g. build and maintain a linked whole-of-population child cohort for NSW.]\n[Placeholder aim 2 — e.g. investigate early-life determinants of health and developmental outcomes.]\n[Placeholder aim 3 — e.g. translate findings into policy and practice to improve outcomes for children.]"
+  },
+  {
+    "objectID": "mission.html#approach",
+    "href": "mission.html#approach",
+    "title": "Mission",
+    "section": "Approach",
+    "text": "Approach\n[Placeholder — describe the Program’s data sources, methods, and partnerships, e.g. linked administrative health, education, and welfare records; collaborations with NSW government agencies; approach to data governance and ethics.]"
+  },
+  {
+    "objectID": "mission.html#funding-partners",
+    "href": "mission.html#funding-partners",
+    "title": "Mission",
+    "section": "Funding & partners",
+    "text": "Funding & partners\n[Placeholder — list funders, partner agencies, and collaborating institutions.]"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Research projects underway within the NSW Child E Cohort Program. [Placeholder content — replace each card with real project details.]\n\n\nProject One: Early Childhood Development Outcomes\n[Placeholder description.] This project examines how early-life factors relate to developmental outcomes measured through the Australian Early Development Census (AEDC) and linked health records.\nStatus: Ongoing\n\n\nProject Two: Maternal & Perinatal Health Linkage\n[Placeholder description.] Linking perinatal data collections to explore associations between maternal health during pregnancy and child outcomes.\nStatus: Ongoing\n\n\nProject Three: Education & Health Data Linkage\n[Placeholder description.] Investigating the relationship between early health experiences and later educational attainment using linked NSW datasets.\nStatus: Planned\n\n\nProject Four: [Placeholder Title]\n[Placeholder description.] Add a short summary of the project’s aims, data sources, and expected outputs here.\nStatus: [Placeholder]"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
+    "section": "",
+    "text": "News coverage and media mentions of the NSW Child E Cohort Program. [Placeholder entries — replace with real media items, newest first.]\n\n\n[Placeholder Month] 2026\n\n[Placeholder headline: NSW study links early childhood data to improve outcomes]\n[Placeholder outlet name.] Short summary of the coverage. Read more →\n\n\n\n[Placeholder Month] 2025\n\n[Placeholder headline: Program lead discusses child cohort research]\n[Placeholder outlet name.] Short summary of the coverage. Read more →\n\n\n\n[Placeholder Month] 2025\n\n[Placeholder headline: New funding announced for NSW child health data linkage]\n[Placeholder outlet name.] Short summary of the coverage. Read more →"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NSW Child E Cohort Program",
+    "section": "",
+    "text": "NSW Child E Cohort Program\nUnderstanding the early life origins of child health and development in New South Wales, through linked, population-level data.\n\n\n\nProjects\nExplore the research projects underway within the NSW Child E Cohort Program.\n\n\nPeople\nMeet the investigators, staff, and students leading and supporting this work.\n\n\nMission\nLearn about the aims and background of the Program.\n\n\nPublications\nBrowse papers and reports produced by the Program.\n\n\nMedia\nRead news coverage and media mentions of our work."
+  }
+]
