@@ -11,12 +11,12 @@ website:
     logo: assets/images/logo.svg
     background: dark
     left:
-      - text: "Projects"
-        href: projects.qmd
-      - text: "People"
-        href: people.qmd
       - text: "Mission"
         href: mission.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Projects"
+        href: projects.qmd
       - text: "Publications"
         href: publications.qmd
       - text: "Media"

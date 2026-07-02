@@ -12,8 +12,8 @@ Understanding the early life origins of child health and development in New Sout
 ::: {.card-grid}
 
 ::: {.info-card}
-### [Projects](projects.qmd)
-Explore the research projects underway within the NSW Child E Cohort Program.
+### [Mission](mission.qmd)
+Learn about the aims and background of the Program.
 :::
 
 ::: {.info-card}
@@ -22,8 +22,8 @@ Meet the investigators, staff, and students leading and supporting this work.
 :::
 
 ::: {.info-card}
-### [Mission](mission.qmd)
-Learn about the aims and background of the Program.
+### [Projects](projects.qmd)
+Explore the research projects underway within the NSW Child E Cohort Program.
 :::
 
 ::: {.info-card}
