@@ -4,12 +4,14 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
+<span class="hero-kicker">UNSW School of Population Health</span>
+
 # NSW Child E Cohort Program
 
 Understanding the early life origins of child health and development in New South Wales, through linked, population-level data.
 :::
 
-::: {.card-grid}
+::: {.card-grid .home-highlights}
 
 ::: {.info-card}
 ### [Mission](mission.qmd)
