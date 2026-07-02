@@ -14,7 +14,7 @@ Understanding the early life origins of child health and development in New Sout
 :::
 
 ::: {.hero-intro-graphic}
-![](assets/images/logo-mark.svg){fig-alt="NSW Child E Cohort mark: three growing silhouettes, from infant to teenager, representing the Program's focus on early life development"}
+![](assets/images/logo-mark.svg){fig-alt="NSW Child E Cohort mark: six children of ascending height, holding hands, in a light-to-navy blue gradient, representing the Program's focus on children's journey through early life together"}
 :::
 :::
 

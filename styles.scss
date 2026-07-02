@@ -75,13 +75,13 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 .hero-intro-graphic {
-  flex: 1 1 220px;
+  flex: 1 1 280px;
   display: flex;
   justify-content: center;
 
   img {
     width: 100%;
-    max-width: 220px;
+    max-width: 300px;
     height: auto;
   }
 }

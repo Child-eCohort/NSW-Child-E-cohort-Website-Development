@@ -1,10 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" viewBox="0 0 200 120" role="img" aria-label="NSW Child E Cohort mark: three growing silhouettes, from infant to teenager, representing the Program's focus on early life development">
-  <circle cx="30" cy="85" r="7" fill="#6495ed"/>
-  <rect x="23.5" y="92" width="13" height="18" rx="6.5" fill="#6495ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="136" viewBox="0 0 290 136" role="img" aria-label="NSW Child E Cohort mark: six children of ascending height, holding hands, in a light-to-navy blue gradient">
+  <!-- linked hands (drawn first so bodies overlap the join points) -->
+  <rect x="38" y="94" width="18" height="8" rx="4" fill="#b3cdf5"/>
+  <rect x="49.6" y="94" width="18" height="8" rx="4" fill="#8fb3ee"/>
+  <rect x="84.4" y="94" width="18" height="8" rx="4" fill="#8fb3ee"/>
+  <rect x="91.2" y="94" width="18" height="8" rx="4" fill="#6495ed"/>
+  <rect x="130.8" y="94" width="18" height="8" rx="4" fill="#6495ed"/>
+  <rect x="132.8" y="94" width="18" height="8" rx="4" fill="#4472c4"/>
+  <rect x="177.2" y="94" width="18" height="8" rx="4" fill="#4472c4"/>
+  <rect x="174.4" y="94" width="18" height="8" rx="4" fill="#23408a"/>
+  <rect x="223.6" y="94" width="18" height="8" rx="4" fill="#23408a"/>
+  <rect x="216" y="94" width="18" height="8" rx="4" fill="#00205b"/>
 
-  <circle cx="100" cy="53" r="11" fill="#7a8b99"/>
-  <rect x="90" y="64" width="20" height="46" rx="9" fill="#7a8b99"/>
+  <!-- figure 1 -->
+  <rect x="27.4" y="108" width="3.2" height="20" rx="1.6" fill="#b3cdf5"/>
+  <rect x="33.4" y="108" width="3.2" height="20" rx="1.6" fill="#b3cdf5"/>
+  <rect x="26" y="100" width="12" height="8" rx="3.6" fill="#b3cdf5"/>
+  <circle cx="32" cy="94" r="6" fill="#b3cdf5"/>
 
-  <circle cx="170" cy="20.5" r="14.5" fill="#00205b"/>
-  <rect x="156.5" y="35" width="27" height="75" rx="11" fill="#00205b"/>
+  <!-- figure 2 -->
+  <rect x="69.56" y="108" width="4.48" height="20" rx="2.24" fill="#8fb3ee"/>
+  <rect x="77.96" y="108" width="4.48" height="20" rx="2.24" fill="#8fb3ee"/>
+  <rect x="67.6" y="88.8" width="16.8" height="19.2" rx="5.04" fill="#8fb3ee"/>
+  <circle cx="76" cy="80.4" r="8.4" fill="#8fb3ee"/>
+
+  <!-- figure 3 -->
+  <rect x="111.72" y="108" width="5.76" height="20" rx="2.88" fill="#6495ed"/>
+  <rect x="122.52" y="108" width="5.76" height="20" rx="2.88" fill="#6495ed"/>
+  <rect x="109.2" y="77.6" width="21.6" height="30.4" rx="6.48" fill="#6495ed"/>
+  <circle cx="120" cy="66.8" r="10.8" fill="#6495ed"/>
+
+  <!-- figure 4 -->
+  <rect x="153.88" y="108" width="7.04" height="20" rx="3.52" fill="#4472c4"/>
+  <rect x="167.08" y="108" width="7.04" height="20" rx="3.52" fill="#4472c4"/>
+  <rect x="150.8" y="66.4" width="26.4" height="41.6" rx="7.92" fill="#4472c4"/>
+  <circle cx="164" cy="53.2" r="13.2" fill="#4472c4"/>
+
+  <!-- figure 5 -->
+  <rect x="196.04" y="108" width="8.32" height="20" rx="4.16" fill="#23408a"/>
+  <rect x="211.64" y="108" width="8.32" height="20" rx="4.16" fill="#23408a"/>
+  <rect x="192.4" y="55.2" width="31.2" height="52.8" rx="9.36" fill="#23408a"/>
+  <circle cx="208" cy="39.6" r="15.6" fill="#23408a"/>
+
+  <!-- figure 6 -->
+  <rect x="238.2" y="108" width="9.6" height="20" rx="4.8" fill="#00205b"/>
+  <rect x="256.2" y="108" width="9.6" height="20" rx="4.8" fill="#00205b"/>
+  <rect x="234" y="44" width="36" height="64" rx="10.8" fill="#00205b"/>
+  <circle cx="252" cy="26" r="18" fill="#00205b"/>
 </svg>
