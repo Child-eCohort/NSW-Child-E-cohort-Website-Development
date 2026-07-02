@@ -40,6 +40,13 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   border-bottom: 6px solid $gold;
   margin-bottom: 2rem;
 
+  .hero-logo {
+    display: block;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 1.25rem;
+  }
+
   .hero-kicker {
     display: block;
     color: $gold;

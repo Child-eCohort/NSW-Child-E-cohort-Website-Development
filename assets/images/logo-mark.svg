@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="NSW Child E Cohort mark: linked data points tracing an upward path from early childhood to better outcomes">
+  <line x1="10" y1="100" x2="103" y2="20" stroke="#7a8b99" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 13"/>
+  <circle cx="10" cy="100" r="10" fill="#00205b"/>
+  <circle cx="43" cy="73" r="10" fill="#00205b"/>
+  <circle cx="76" cy="47" r="10" fill="#7a8b99"/>
+  <circle cx="103" cy="20" r="12" fill="#d4af37"/>
+</svg>

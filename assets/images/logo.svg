@@ -1,5 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="36" viewBox="0 0 220 36" role="img" aria-label="NSW Child E Cohort logo placeholder">
-  <rect x="0" y="0" width="36" height="36" fill="#00205b"/>
-  <rect x="4" y="4" width="28" height="28" fill="#d4af37"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="36" viewBox="0 0 220 36" role="img" aria-label="NSW Child E Cohort logo">
+  <line x1="3" y1="30" x2="30" y2="6" stroke="#7a8b99" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 4"/>
+  <circle cx="3" cy="30" r="3.2" fill="#00205b"/>
+  <circle cx="13" cy="22" r="3.2" fill="#00205b"/>
+  <circle cx="23" cy="14" r="3.2" fill="#7a8b99"/>
+  <circle cx="31" cy="6" r="3.8" fill="#d4af37"/>
   <text x="44" y="24" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#00205b">NSW Child E Cohort</text>
 </svg>

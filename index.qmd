@@ -4,6 +4,8 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
+![](assets/images/logo-mark.svg){.hero-logo fig-alt="NSW Child E Cohort mark: linked data points tracing an upward path from early childhood to better outcomes"}
+
 <span class="hero-kicker">UNSW School of Population Health</span>
 
 # NSW Child E Cohort Program
