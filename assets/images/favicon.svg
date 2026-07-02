@@ -1,10 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="NSW Child E Cohort favicon">
-  <circle cx="5" cy="22.8" r="1.8" fill="#6495ed"/>
-  <rect x="3.5" y="24.6" width="3" height="4.4" rx="1.5" fill="#6495ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 36 36" role="img" aria-label="NSW Child E Cohort favicon">
+  <!-- linked hands -->
+  <rect x="9.1" y="22.8" width="6" height="2.4" rx="1.2" fill="#b3cdf5"/>
+  <rect x="7.7" y="22.8" width="6" height="2.4" rx="1.2" fill="#6495ed"/>
+  <rect x="20.3" y="22.8" width="6" height="2.4" rx="1.2" fill="#6495ed"/>
+  <rect x="16.5" y="22.8" width="6" height="2.4" rx="1.2" fill="#00205b"/>
 
-  <circle cx="15.5" cy="15.8" r="2.8" fill="#7a8b99"/>
-  <rect x="13.2" y="18.6" width="4.6" height="10.4" rx="2.3" fill="#7a8b99"/>
+  <!-- figure 1 -->
+  <rect x="4.9" y="22.2" width="4.2" height="9.8" rx="1.5" fill="#b3cdf5"/>
+  <circle cx="7" cy="20.1" r="2.1" fill="#b3cdf5"/>
 
-  <circle cx="26.5" cy="8.6" r="3.6" fill="#00205b"/>
-  <rect x="23.5" y="12.2" width="6" height="16.8" rx="3" fill="#00205b"/>
+  <!-- figure 2 -->
+  <rect x="13.7" y="16.6" width="6.6" height="15.4" rx="2" fill="#6495ed"/>
+  <circle cx="17" cy="13.3" r="3.3" fill="#6495ed"/>
+
+  <!-- figure 3 -->
+  <rect x="22.5" y="11" width="9" height="21" rx="2.7" fill="#00205b"/>
+  <circle cx="27" cy="6.5" r="4.5" fill="#00205b"/>
 </svg>
