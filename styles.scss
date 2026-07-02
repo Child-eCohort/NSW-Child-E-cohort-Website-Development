@@ -3,7 +3,7 @@
 // Program colour palette.
 $navy: #00205b;
 $slate: #7a8b99;
-$gold: #d4af37;
+$accent: #6495ed; // cornflower blue — lighter tint of the navy family
 $white: #ffffff;
 $grey-light: #f5f5f5;
 
@@ -14,7 +14,7 @@ $link-color: darken($navy, 5%);
 
 $navbar-bg: $navy;
 $navbar-fg: $white;
-$navbar-hl: $gold;
+$navbar-hl: $accent;
 
 $footer-bg: $navy;
 $footer-fg: $white;
@@ -24,7 +24,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 /*-- scss:rules --*/
 
 .navbar {
-  border-bottom: 4px solid $gold;
+  border-bottom: 4px solid $accent;
 }
 
 .navbar-brand img {
@@ -37,7 +37,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: $white;
   padding: 4rem 2rem;
   text-align: center;
-  border-bottom: 6px solid $gold;
+  border-bottom: 6px solid $accent;
   margin-bottom: 2rem;
 
   .hero-logo {
@@ -49,7 +49,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
   .hero-kicker {
     display: block;
-    color: $gold;
+    color: $accent;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 0.85rem;
@@ -87,7 +87,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
   h3 {
     margin-top: 0;
-    border-bottom: 3px solid $gold;
+    border-bottom: 3px solid $accent;
     padding-bottom: 0.4rem;
     display: inline-block;
   }
@@ -100,10 +100,10 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 // Homepage highlight grid: cycle the 3 accent colors across the cards
 // so all three appear together on the site's first/introductory page.
 .home-highlights .info-card {
-  border-top: 4px solid $gold;
+  border-top: 4px solid $accent;
 
   h3 {
-    border-bottom-color: $gold;
+    border-bottom-color: $accent;
   }
 
   &:nth-child(3n+2) {
@@ -147,7 +147,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   }
 
   .role {
-    color: darken($gold, 15%);
+    color: darken($accent, 15%);
     font-weight: 600;
     margin-bottom: 0.4rem;
   }
@@ -155,7 +155,7 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
 // Media page dated list items
 .media-item {
-  border-left: 4px solid $gold;
+  border-left: 4px solid $accent;
   padding: 0.25rem 0 0.25rem 1rem;
   margin-bottom: 1.25rem;
 
@@ -171,6 +171,6 @@ $font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: $footer-fg;
 
   a {
-    color: $gold;
+    color: $accent;
   }
 }

@@ -11,7 +11,7 @@ The design/UX reference point is [spcanelon/silvia](https://github.com/spcanelon
 | Framework | **Quarto** | Matches the reference site; markdown/YAML-based so lab members can add people/publications/projects without touching code. |
 | Hosting | **GitHub Pages** | Free, deploys straight from this repo via GitHub Actions. |
 | Initial content | **Placeholders** | Structure and styling built now; team bios, real publications, project descriptions, and media items to be swapped in later. |
-| Branding | **Navy / slate / gold** | User-specified palette (`#00205B` navy, `#7A8B99` slate, `#D4AF37` gold), replacing the initial UNSW yellow/black placeholder, applied to the reference site's clean academic layout. |
+| Branding | **Navy / slate / cornflower blue** | Palette: `#00205B` navy, `#7A8B99` slate, `#6495ED` cornflower blue accent (replaced an initial gold `#D4AF37` accent per user request to remove all yellow-toned color), applied to the reference site's clean academic layout. |
 
 ## Site structure
 ```
@@ -40,3 +40,4 @@ references.bib           placeholder BibTeX entries for Publications page
 - 2026-07-02: Projects page trimmed — removed the "Prior NHMRC Early Career Fellowship research" section and dollar figures from all funding lines (funder/grant name kept, amount dropped); Projects intro line shortened to drop the profile-link sentence.
 - 2026-07-02: Mission page ("About the Program"/"Our aims") rewritten with the Program's real mission statement, adapted from a reference statement but reframed around overall early-life development/wellbeing rather than child protection specifically (child-protection-specific data sector and outcome sentences dropped).
 - 2026-07-02: New logo mark designed (`assets/images/logo-mark.svg`): four linked data points tracing an upward path (navy → navy → slate → gold), symbolising the cohort's data linkage tracing children's journey from early life to better outcomes. Applied to navbar (`logo.svg`), favicon, and featured large in the homepage hero banner.
+- 2026-07-02: Removed gold/yellow-toned accent entirely per user request. Replaced with cornflower blue `#6495ED` (a lighter tint within the navy family) across `styles.scss` (renamed `$gold` → `$accent`) and the logo/favicon/logo-mark SVGs — the mark's end node is now blue instead of gold.
