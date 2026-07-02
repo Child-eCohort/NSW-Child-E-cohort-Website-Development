@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ab6afdc458c409790bbe527b8568c580.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d917618b5b3d483eda58540c96c48029.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./mission.html"> 
 <span class="menu-text">Mission</span></a>
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
 <p>This repo builds the public website for the <strong>NSW Child E Cohort Program</strong>, based in the UNSW School of Population Health and led by Dr Kathleen Falster.</p>
-<p>The design/UX reference point is <a href="https://github.com/spcanelon/silvia">spcanelon/silvia</a> — a personal academic site built with <strong>Quarto</strong>, inspired by the Hugo Apéro theme. Navbar sections must be, in order: <strong>Projects, People, Mission, Publications, Media</strong>.</p>
+<p>The design/UX reference point is <a href="https://github.com/spcanelon/silvia">spcanelon/silvia</a> / <a href="https://silviacanelon.com/">silviacanelon.com</a> — a personal academic site built with <strong>Quarto</strong>, inspired by the Hugo Apéro theme. Navbar sections are, in order: <strong>Mission, People, Projects, Publications, Media</strong>.</p>
 </section>
 <section id="decisions" class="level2">
 <h2 class="anchored" data-anchor-id="decisions">Decisions</h2>
@@ -215,6 +215,7 @@ references.bib           placeholder BibTeX entries for Publications page</code>
 <li>2026-07-02: Fixed inconsistent card border colors (was cycling accent/navy/slate per card on the homepage only) — all <code>.info-card</code> boxes now use one consistent border treatment (slate side/bottom border, accent top border) on every page. Removed the now-unused <code>.home-highlights</code> class from <code>index.qmd</code>.</li>
 <li>2026-07-02: Fixed double-underlined card headings (browser’s default link underline stacking with the custom colored <code>border-bottom</code>) by disabling the default <code>&lt;a&gt;</code> text-decoration inside <code>.info-card h3</code> — only the single colored underline remains.</li>
 <li>2026-07-02: Replaced the linked-data-path logo mark with a new design: three growing silhouettes (no facial features, just shape) from infant (accent blue, smallest) to child (slate, medium) to teenager (navy, tallest), representing the Program’s early-life development focus. Applied to <code>logo-mark.svg</code> (hero), <code>logo.svg</code> (navbar), and <code>favicon.svg</code>.</li>
+<li>2026-07-02: Restyled the site to follow <a href="https://silviacanelon.com/">silviacanelon.com</a>’s layout, keeping our navy/slate/cornflower-blue palette: navbar section links moved from the <code>left:</code> group to the <code>right:</code> group in <code>_quarto.yml</code> so they sit as a bar on the top right (logo stays top left, matching the reference); homepage hero replaced the full-bleed navy banner with a contained, light-background intro (short heading/subtitle/paragraph on the left, large logo mark on the right) and dropped <code>page-layout: full</code> so the page uses Quarto’s standard contained width. Also fixed a pre-existing bug found along the way: <code>logo.svg</code> had baked-in “NSW Child E Cohort” text that duplicated the navbar’s separate auto-generated site title — made <code>logo.svg</code> icon-only.</li>
 </ul>
 
 
