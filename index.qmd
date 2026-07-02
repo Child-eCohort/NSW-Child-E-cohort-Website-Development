@@ -4,7 +4,7 @@ page-layout: full
 ---
 
 ::: {.hero-banner}
-![](assets/images/logo-mark.svg){.hero-logo fig-alt="NSW Child E Cohort mark: linked data points tracing an upward path from early childhood to better outcomes"}
+![](assets/images/logo-mark.svg){.hero-logo fig-alt="NSW Child E Cohort mark: three growing silhouettes, from infant to teenager, representing the Program's focus on early life development"}
 
 <span class="hero-kicker">UNSW School of Population Health</span>
 
@@ -13,7 +13,7 @@ page-layout: full
 Understanding the early life origins of child health and development in New South Wales, through linked, population-level data.
 :::
 
-::: {.card-grid .home-highlights}
+::: {.card-grid}
 
 ::: {.info-card}
 ### [Mission](mission.qmd)

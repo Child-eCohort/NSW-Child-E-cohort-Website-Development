@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="NSW Child E Cohort favicon">
-  <line x1="3" y1="27" x2="27" y2="5" stroke="#7a8b99" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 4"/>
-  <circle cx="3" cy="27" r="3" fill="#00205b"/>
-  <circle cx="13" cy="19" r="3" fill="#00205b"/>
-  <circle cx="21" cy="12" r="3" fill="#7a8b99"/>
-  <circle cx="28" cy="5" r="3.6" fill="#6495ed"/>
+  <circle cx="5" cy="22.8" r="1.8" fill="#6495ed"/>
+  <rect x="3.5" y="24.6" width="3" height="4.4" rx="1.5" fill="#6495ed"/>
+
+  <circle cx="15.5" cy="15.8" r="2.8" fill="#7a8b99"/>
+  <rect x="13.2" y="18.6" width="4.6" height="10.4" rx="2.3" fill="#7a8b99"/>
+
+  <circle cx="26.5" cy="8.6" r="3.6" fill="#00205b"/>
+  <rect x="23.5" y="12.2" width="6" height="16.8" rx="3" fill="#00205b"/>
 </svg>
