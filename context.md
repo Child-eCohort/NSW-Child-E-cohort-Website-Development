@@ -30,9 +30,10 @@ references.bib           placeholder BibTeX entries for Publications page
 
 ## Known follow-ups (things a human needs to do)
 1. **Install the Quarto CLI** locally (https://quarto.org/docs/get-started/) to run `quarto preview`/`quarto render` on this machine — it wasn't detected during this build. CI renders independently of this.
-2. **Replace placeholder content**: team bios/photos, real project descriptions, actual publications (`references.bib`), and media/news items.
+2. **Replace remaining placeholder content**: team bios/photos, actual publications (`references.bib`), and media/news items. Projects (`projects.qmd`) now has real content — see change log below.
 
 ## Change log
 - 2026-07-02: Repo made public (was private) so GitHub Pages could serve it on the org's free plan; site deployed live at https://child-ecohort.github.io/NSW-Child-E-cohort-Website-Development/.
 - 2026-07-02: Navbar/home page section order changed to Mission, People, Projects, Publications, Media.
 - 2026-07-02: Color palette changed from UNSW yellow/black placeholder to navy (`#00205B`) / slate (`#7A8B99`) / gold (`#D4AF37`).
+- 2026-07-02: `projects.qmd` replaced with real project content sourced from Dr Falster's UNSW staff profile (Research Activities tab: https://www.unsw.edu.au/staff/kathleen-falster) — 14 projects across 4 categories (multi-jurisdictional grant-funded, NSW-specific grant-funded, multi-jurisdictional research using NSW Child E-Cohort data, prior NHMRC Early Career Fellowship research), each with a 1–2 sentence description, funding details, and external collaborators where mentioned on the profile.
