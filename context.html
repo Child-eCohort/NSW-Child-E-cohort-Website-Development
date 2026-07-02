@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cda270ce4919d4e6ae74f8daae9325ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b86cab729608e47362b2875f654cd243.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -222,6 +222,7 @@ references.bib           placeholder BibTeX entries for Publications page</code>
 <li>2026-07-02: People page’s Dr Falster entry replaced with her real profile (title, bio, research interests, contact/profile links) sourced from https://www.unsw.edu.au/staff/kathleen-falster. Other team entries (investigators, staff, students) remain placeholders pending real names/bios.</li>
 <li>2026-07-02: Downloaded Dr Falster’s real profile photo from her UNSW staff page (<code>assets/images/kathleen-falster.jpg</code>) and swapped it in for the placeholder avatar on the People page.</li>
 <li>2026-07-02: Fixed the homepage highlight cards rendering <code>###</code> as literal text instead of a heading — the icon image and the <code>### [Title]</code> line had no blank line between them, so Pandoc treated it as a paragraph continuation rather than an ATX heading. Added blank lines around each heading/paragraph in <code>index.qmd</code>, and increased the card title size/weight (<code>font-size: 1.4rem; font-weight: 700;</code>) in <code>styles.scss</code>.</li>
+<li>2026-07-02: Fixed profile photos not actually rendering circular on the People page — markdown <code>![]()</code> images get auto-wrapped by Pandoc in <code>&lt;p class="img-fluid"&gt;</code>, and relying on <code>.profile-card img{width;height;border-radius}</code> alone proved unreliable in the flex layout. Switched to a raw-HTML <code>&lt;div class="avatar"&gt;</code> wrapper (fixed 96×96px, <code>overflow:hidden</code>, <code>border-radius:50%</code>) with the <code>&lt;img&gt;</code> filling it via <code>object-fit:cover</code> — a more robust pattern for circular avatars. Applied to Dr Falster’s photo and all placeholder avatars in <code>people.qmd</code>.</li>
 </ul>
 
 
