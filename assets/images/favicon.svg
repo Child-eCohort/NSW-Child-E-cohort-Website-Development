@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="Site favicon placeholder">
-  <rect width="32" height="32" fill="#00205b"/>
-  <rect x="5" y="5" width="22" height="22" fill="#d4af37"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" role="img" aria-label="NSW Child E Cohort favicon">
+  <line x1="3" y1="27" x2="27" y2="5" stroke="#7a8b99" stroke-width="2" stroke-linecap="round" stroke-dasharray="1 4"/>
+  <circle cx="3" cy="27" r="3" fill="#00205b"/>
+  <circle cx="13" cy="19" r="3" fill="#00205b"/>
+  <circle cx="21" cy="12" r="3" fill="#7a8b99"/>
+  <circle cx="28" cy="5" r="3.6" fill="#d4af37"/>
 </svg>
