@@ -1,36 +1,51 @@
 # Project Context: NSW Child E Cohort Website
 
 ## Background
-This repo builds the public website for the **NSW Child E Cohort Program**, based in the UNSW School of Population Health and led by Dr Kathleen Falster.
+This repo builds the public website for the **NSW Child E Cohort Program**, based in the UNSW School of Population Health and led by Associate Professor Kathleen Falster.
 
 The design/UX reference point is [spcanelon/silvia](https://github.com/spcanelon/silvia) / [silviacanelon.com](https://silviacanelon.com/) — a personal academic site built with **Quarto**, inspired by the Hugo Apéro theme. Navbar sections are, in order: **Mission, People, Projects, Publications, Media**.
+
+## Goals
+- Give the Program a public, professional website introducing its mission, team, research projects, publications, and media coverage.
+- Keep day-to-day maintenance easy for non-developer lab members: content lives in plain markdown/YAML files (`.qmd`, `.bib`), not code.
+- Match the clean academic look of the reference site, but with the Program's own navy/slate/cornflower-blue branding and a "children holding hands" logo motif.
+- Run for free, deployed straight from this GitHub repo with no separate hosting to manage.
+
+## Workflow
+- **Auto-deploy every change**: each edit is committed and pushed to `main` immediately (no batching, no separate "push it" request needed) — see [[feedback_auto_deploy]] in memory.
+- **Build pipeline**: push to `main` → `.github/workflows/publish.yml` renders the Quarto site and publishes `_site/` to the `gh-pages` branch → GitHub Pages serves it live.
+- **No local Quarto CLI** on this machine, so changes can't be previewed with `quarto preview` before pushing. Verification happens by re-fetching the live URL (and/or the `gh-pages` branch content) after the Actions run completes, ~30–45 seconds after pushing.
+- **This file** (`context.md`) is the running log of decisions and changes — update its Change log whenever a meaningful change is made, so a fresh session (or a fresh Claude conversation) has the full history without re-deriving it.
 
 ## Decisions
 | Decision | Choice | Why |
 |---|---|---|
 | Framework | **Quarto** | Matches the reference site; markdown/YAML-based so lab members can add people/publications/projects without touching code. |
 | Hosting | **GitHub Pages** | Free, deploys straight from this repo via GitHub Actions. |
-| Initial content | **Placeholders** | Structure and styling built now; team bios, real publications, project descriptions, and media items to be swapped in later. |
+| Initial content | **Placeholders**, being replaced incrementally | Structure and styling built first; Mission, Projects, and Dr Falster's People entry now have real content (see Change log) — team bios/photos for other members, real publications, and media items are still pending. |
 | Branding | **Navy / slate / cornflower blue** | Palette: `#00205B` navy, `#7A8B99` slate, `#6495ED` cornflower blue accent (replaced an initial gold `#D4AF37` accent per user request to remove all yellow-toned color), applied to the reference site's clean academic layout. |
+| Logo | **Children holding hands, gradient blues** | Six (hero) / three (navbar, favicon) child silhouettes of ascending height, holding hands, colored light-to-navy blue — inspired by a reference embroidered-patch image, using only the site's blue palette. |
+| Page layout | **Follows silviacanelon.com** | Navbar: icon-only logo on the left, section links pushed right via `right:` group in `_quarto.yml`. Homepage: contained-width, light-background intro (heading/subtitle/paragraph left, large logo right) instead of a full-bleed banner. |
 
 ## Site structure
 ```
 _quarto.yml              site config: navbar order, theme, output
-index.qmd                Home: hero + highlight cards linking to the 5 sections
-mission.qmd              Program mission/aims/background
-projects.qmd             Research project listing (placeholder cards)
-people.qmd               Team grid (lead, investigators, staff/students)
-publications.qmd         Publication list, rendered from references.bib
-media.qmd                News/media mentions
-styles.scss              Custom SCSS theme (navy/slate/gold colors)
-assets/images/           logo, favicon, hero image, photo placeholders
+index.qmd                Home: contained intro (text + large logo) + highlight cards linking to the 5 sections
+mission.qmd              Program mission/aims (real content)
+projects.qmd             Research project listing (real content, sourced from Dr Falster's UNSW profile)
+people.qmd               Team grid (Dr Falster's entry is real; other roles are placeholders)
+publications.qmd         Publication list, rendered from references.bib (placeholder entries)
+media.qmd                News/media mentions (placeholder entries)
+styles.scss              Custom SCSS theme (navy/slate/cornflower-blue palette)
+context.md               This file — project background, decisions, workflow, and change log
+assets/images/           logo (hero/navbar/favicon variants), section icons, avatar photos/placeholders
 .github/workflows/publish.yml   GitHub Actions: render + deploy to gh-pages
 references.bib           placeholder BibTeX entries for Publications page
 ```
 
 ## Known follow-ups (things a human needs to do)
 1. **Install the Quarto CLI** locally (https://quarto.org/docs/get-started/) to run `quarto preview`/`quarto render` on this machine — it wasn't detected during this build. CI renders independently of this.
-2. **Replace remaining placeholder content**: team bios/photos, actual publications (`references.bib`), and media/news items. Projects (`projects.qmd`) now has real content — see change log below.
+2. **Replace remaining placeholder content**: investigator/staff/student bios and photos, actual publications (`references.bib`), and media/news items.
 3. **Optimize `assets/images/kathleen-falster.jpg`**: it's the original ~1MB, 2977×3407px file pulled from her UNSW profile — no image-resizing tool was available in this environment to shrink it. Browsers still display it fine (CSS crops it to a 96px circle), but resizing/compressing it would reduce page load size.
 
 ## Change log
@@ -52,3 +67,4 @@ references.bib           placeholder BibTeX entries for Publications page
 - 2026-07-02: Downloaded Dr Falster's real profile photo from her UNSW staff page (`assets/images/kathleen-falster.jpg`) and swapped it in for the placeholder avatar on the People page.
 - 2026-07-02: Fixed the homepage highlight cards rendering `###` as literal text instead of a heading — the icon image and the `### [Title]` line had no blank line between them, so Pandoc treated it as a paragraph continuation rather than an ATX heading. Added blank lines around each heading/paragraph in `index.qmd`, and increased the card title size/weight (`font-size: 1.4rem; font-weight: 700;`) in `styles.scss`.
 - 2026-07-02: Fixed profile photos not actually rendering circular on the People page — markdown `![]()` images get auto-wrapped by Pandoc in `<p class="img-fluid">`, and relying on `.profile-card img{width;height;border-radius}` alone proved unreliable in the flex layout. Switched to a raw-HTML `<div class="avatar">` wrapper (fixed 96×96px, `overflow:hidden`, `border-radius:50%`) with the `<img>` filling it via `object-fit:cover` — a more robust pattern for circular avatars. Applied to Dr Falster's photo and all placeholder avatars in `people.qmd`.
+- 2026-07-02: Restructured this file into Background / Goals / Workflow / Decisions / Site structure / Known follow-ups / Change log sections for easier scanning.
