@@ -12,21 +12,21 @@ Research projects led by or affiliated with the NSW Child E Cohort Program, base
 ### The HEAL E-Cohort Study (2025–2028)
 Transforming health and wellbeing outcomes from injury for Aboriginal and Torres Strait Islander children, led by Dr Falster as Chief Investigator for the NSW linked-data stream of a joint NSW–South Australia project.
 
-**Funding:** NHMRC Clinical Trials and Cohort Studies Grant ($4M)
+**Funding:** NHMRC Clinical Trials and Cohort Studies Grant
 :::
 
 ::: {.info-card}
 ### Health Needs of Children in Out-of-Home Care (2023–2027)
 Investigates whether the health needs of the roughly 50,000 children in out-of-home care across Australia are being met, with Dr Falster leading the NSW stream of a joint NSW–South Australia project.
 
-**Funding:** MRFF Research Data Infrastructure Grant ($2.4M)
+**Funding:** MRFF Research Data Infrastructure Grant
 :::
 
 ::: {.info-card}
 ### Cross-Jurisdictional E-Cohorts for Child Maltreatment (2020–2025)
 Examines how the health system responds to child maltreatment and makes the case for building cross-jurisdictional e-cohorts to better inform that response.
 
-**Funding:** NHMRC Clinical Trials and Cohort Studies Grant ($1,248,388)
+**Funding:** NHMRC Clinical Trials and Cohort Studies Grant
 :::
 
 :::
@@ -39,28 +39,28 @@ Examines how the health system responds to child maltreatment and makes the case
 ### First 2000 Days Program (2024–2027)
 Informs policy and service delivery for mothers, babies, children, and families during the first 2000 days of life.
 
-**Funding:** NSW Health ($350,000)
+**Funding:** NSW Health
 :::
 
 ::: {.info-card}
 ### Aboriginal Child Restoration from Out-of-Home Care (2021–2026)
 Examines pathways to successful restoration of Aboriginal children from out-of-home care, with Dr Falster leading the data linkage stream of a mixed-methods project.
 
-**Funding:** ARC Discovery Indigenous Grant ($427,685)
+**Funding:** ARC Discovery Indigenous Grant
 :::
 
 ::: {.info-card}
 ### Sustaining NSW Families Evaluation (2021–2025)
 Evaluates the impact of the Sustaining NSW Families program on child development and family wellbeing outcomes, with Dr Falster leading the outcome evaluation.
 
-**Funding:** NSW Health tender ($400,000)
+**Funding:** NSW Health tender
 :::
 
 ::: {.info-card}
 ### ACCESS: Aboriginal Ear Health Support System (2020–2025)
 Develops, embeds, and evaluates best-practice models of care for Aboriginal children's ear health, with Dr Falster leading the data linkage stream of a mixed-methods project.
 
-**Funding:** MRFF Grant ($887,186)
+**Funding:** MRFF Grant
 :::
 
 :::
@@ -97,34 +97,6 @@ Studies families with multiple and complex needs across NSW, South Australia, an
 
 **Funding:** ARC-funded
 **Collaborators:** Australian Centre for Child Protection, University of Adelaide
-:::
-
-:::
-
-## Prior NHMRC Early Career Fellowship research
-
-::: {.card-grid}
-
-::: {.info-card}
-### Seeding Success Study
-Population-based cohort research using linked administrative data to examine factors contributing to positive early childhood health and development outcomes among Aboriginal and non-Aboriginal children in NSW.
-
-**Funding:** NHMRC-funded
-:::
-
-::: {.info-card}
-### Indigenous Health Outcomes Patient Evaluation (IHOPE)
-Examines inequities between Aboriginal and non-Aboriginal children in NSW in potentially avoidable hospitalisations, surgical procedures for middle ear disease, and hospitalisations for unintentional injuries.
-
-**Funding:** NHMRC-funded
-:::
-
-::: {.info-card}
-### Study of Environment on Aboriginal Resilience and Child Health (SEARCH)
-Generates evidence on injuries, asthma, ear health, and hospitalisations among Aboriginal children attending community-controlled health services in major cities and inner regional centres of NSW.
-
-**Funding:** NHMRC-funded
-**Collaborators:** SAX Institute
 :::
 
 :::
