@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Open book representing the Program's publications">
+  <polygon points="32,16 12,20 12,48 32,44" fill="#00205b"/>
+  <polygon points="32,16 52,20 52,48 32,44" fill="#6495ed"/>
+  <rect x="30" y="16" width="4" height="28" fill="#7a8b99"/>
+</svg>

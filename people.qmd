@@ -2,7 +2,7 @@
 title: "People"
 ---
 
-The team behind the NSW Child E Cohort Program. *[Placeholder content — replace bios and photos with real team information.]*
+The team behind the NSW Child E Cohort Program. *[Investigators, staff, and students below are placeholders — replace with real team information.]*
 
 ## Program Lead
 
@@ -10,9 +10,13 @@ The team behind the NSW Child E Cohort Program. *[Placeholder content — replac
 ![](assets/images/avatar-placeholder.svg)
 
 <div>
-### Dr Kathleen Falster
+### Associate Professor Kathleen Falster
 <p class="role">Program Lead</p>
-*[Placeholder bio — replace with a short biography, research interests, and links (e.g. UNSW profile, ORCID).]*
+PhD, MPH, BAppSc(Hons). An epidemiologist with expertise in translational research, linked administrative data, and data analytics, based in the School of Population Health, Faculty of Medicine & Health, UNSW Sydney. Leads the NSW Child E-Cohort Research Program, informing policy and service delivery to improve outcomes for children and families across the health, child protection, education, and social sectors in NSW and nationally.
+
+**Research interests:** population health epidemiology; administrative data linkage and analytics; child health and development outcomes; Aboriginal and Torres Strait Islander health inequities; child protection system involvement; early childhood development; maternal and perinatal health.
+
+**Contact:** [k.falster@unsw.edu.au](mailto:k.falster@unsw.edu.au) · [UNSW profile](https://www.unsw.edu.au/staff/kathleen-falster) · [Google Scholar](https://scholar.google.com/citations?user=cITTuZMAAAAJ&hl=en&oi=ao) · [LinkedIn](https://www.linkedin.com/in/kathleen-falster-a8776a151/)
 </div>
 :::
 

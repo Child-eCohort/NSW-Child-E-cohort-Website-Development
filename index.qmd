@@ -21,26 +21,31 @@ Understanding the early life origins of child health and development in New Sout
 ::: {.card-grid}
 
 ::: {.info-card}
+![](assets/images/icon-mission.svg){.card-icon fig-alt="Compass icon"}
 ### [Mission](mission.qmd)
 Learn about the aims and background of the Program.
 :::
 
 ::: {.info-card}
+![](assets/images/icon-people.svg){.card-icon fig-alt="Two linked figures icon"}
 ### [People](people.qmd)
 Meet the investigators, staff, and students leading and supporting this work.
 :::
 
 ::: {.info-card}
+![](assets/images/icon-projects.svg){.card-icon fig-alt="Ascending bar chart icon"}
 ### [Projects](projects.qmd)
 Explore the research projects underway within the NSW Child E Cohort Program.
 :::
 
 ::: {.info-card}
+![](assets/images/icon-publications.svg){.card-icon fig-alt="Open book icon"}
 ### [Publications](publications.qmd)
 Browse papers and reports produced by the Program.
 :::
 
 ::: {.info-card}
+![](assets/images/icon-media.svg){.card-icon fig-alt="Speech bubble icon"}
 ### [Media](media.qmd)
 Read news coverage and media mentions of our work.
 :::
