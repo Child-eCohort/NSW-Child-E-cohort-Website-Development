@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f531bf9063f9da91b8b6371e39312106.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-71a4b1780dd9a0df768fb74705ff3541.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -174,8 +174,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>Branding</td>
-<td><strong>UNSW branding</strong></td>
-<td>UNSW Yellow/Black core palette adapted into the reference site’s clean academic layout, rather than reusing the reference site’s own colors.</td>
+<td><strong>Navy / slate / gold</strong></td>
+<td>User-specified palette (<code>#00205B</code> navy, <code>#7A8B99</code> slate, <code>#D4AF37</code> gold), replacing the initial UNSW yellow/black placeholder, applied to the reference site’s clean academic layout.</td>
 </tr>
 </tbody>
 </table>
@@ -189,7 +189,7 @@ projects.qmd             Research project listing (placeholder cards)
 people.qmd               Team grid (lead, investigators, staff/students)
 publications.qmd         Publication list, rendered from references.bib
 media.qmd                News/media mentions
-styles.scss              Custom SCSS theme (UNSW colors)
+styles.scss              Custom SCSS theme (navy/slate/gold colors)
 assets/images/           logo, favicon, hero image, photo placeholders
 .github/workflows/publish.yml   GitHub Actions: render + deploy to gh-pages
 references.bib           placeholder BibTeX entries for Publications page</code></pre>
@@ -197,11 +197,17 @@ references.bib           placeholder BibTeX entries for Publications page</code>
 <section id="known-follow-ups-things-a-human-needs-to-do" class="level2">
 <h2 class="anchored" data-anchor-id="known-follow-ups-things-a-human-needs-to-do">Known follow-ups (things a human needs to do)</h2>
 <ol type="1">
-<li><strong>Verify UNSW brand hex codes</strong> against the official UNSW brand toolkit before public launch — this build uses commonly published UNSW Yellow (<code>#FFD100</code>) / Black as a reasonable placeholder, not a fetched brand PDF.</li>
-<li><strong>Point GitHub Pages at the <code>gh-pages</code> branch</strong> in the repo’s Settings → Pages (one-time manual step after the first Actions run creates that branch).</li>
 <li><strong>Install the Quarto CLI</strong> locally (https://quarto.org/docs/get-started/) to run <code>quarto preview</code>/<code>quarto render</code> on this machine — it wasn’t detected during this build. CI renders independently of this.</li>
 <li><strong>Replace placeholder content</strong>: team bios/photos, real project descriptions, actual publications (<code>references.bib</code>), and media/news items.</li>
 </ol>
+</section>
+<section id="change-log" class="level2">
+<h2 class="anchored" data-anchor-id="change-log">Change log</h2>
+<ul>
+<li>2026-07-02: Repo made public (was private) so GitHub Pages could serve it on the org’s free plan; site deployed live at https://child-ecohort.github.io/NSW-Child-E-cohort-Website-Development/.</li>
+<li>2026-07-02: Navbar/home page section order changed to Mission, People, Projects, Publications, Media.</li>
+<li>2026-07-02: Color palette changed from UNSW yellow/black placeholder to navy (<code>#00205B</code>) / slate (<code>#7A8B99</code>) / gold (<code>#D4AF37</code>).</li>
+</ul>
 
 
 </section>
