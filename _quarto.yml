@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "NSW Child E Cohort"
+  description: "NSW Child E Cohort Program — UNSW School of Population Health"
+  favicon: assets/images/favicon.svg
+  page-navigation: true
+  navbar:
+    logo: assets/images/logo.svg
+    background: dark
+    left:
+      - text: "Projects"
+        href: projects.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Mission"
+        href: mission.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Media"
+        href: media.qmd
+  page-footer:
+    left: "© 2026 NSW Child E Cohort Program, UNSW School of Population Health"
+    right:
+      - icon: github
+        href: https://github.com/
+    background: dark
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    grid:
+      body-width: 1000px
+    fig-responsive: true

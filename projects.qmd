@@ -1,0 +1,37 @@
+---
+title: "Projects"
+---
+
+Research projects underway within the NSW Child E Cohort Program. *[Placeholder content — replace each card with real project details.]*
+
+::: {.card-grid}
+
+::: {.info-card}
+### Project One: Early Childhood Development Outcomes
+*[Placeholder description.]* This project examines how early-life factors relate to developmental outcomes measured through the Australian Early Development Census (AEDC) and linked health records.
+
+**Status:** Ongoing
+:::
+
+::: {.info-card}
+### Project Two: Maternal & Perinatal Health Linkage
+*[Placeholder description.]* Linking perinatal data collections to explore associations between maternal health during pregnancy and child outcomes.
+
+**Status:** Ongoing
+:::
+
+::: {.info-card}
+### Project Three: Education & Health Data Linkage
+*[Placeholder description.]* Investigating the relationship between early health experiences and later educational attainment using linked NSW datasets.
+
+**Status:** Planned
+:::
+
+::: {.info-card}
+### Project Four: [Placeholder Title]
+*[Placeholder description.]* Add a short summary of the project's aims, data sources, and expected outputs here.
+
+**Status:** [Placeholder]
+:::
+
+:::

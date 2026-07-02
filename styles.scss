@@ -1,0 +1,136 @@
+/*-- scss:defaults --*/
+
+// UNSW-inspired palette.
+// NOTE: these are commonly published UNSW brand colours, not pulled from the
+// official brand toolkit PDF — verify against unsw.edu.au brand guidelines
+// before public launch (see context.md).
+$unsw-yellow: #ffd100;
+$unsw-black: #000000;
+$unsw-grey-dark: #333333;
+$unsw-grey-light: #f5f5f5;
+$unsw-white: #ffffff;
+
+$primary: $unsw-yellow;
+$body-color: $unsw-grey-dark;
+$body-bg: $unsw-white;
+$link-color: darken($unsw-yellow, 25%);
+
+$navbar-bg: $unsw-black;
+$navbar-fg: $unsw-white;
+$navbar-hl: $unsw-yellow;
+
+$footer-bg: $unsw-black;
+$footer-fg: $unsw-white;
+
+$font-family-sans-serif: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border-bottom: 4px solid $unsw-yellow;
+}
+
+.navbar-brand img {
+  height: 36px;
+}
+
+// Hero banner on the home page
+.hero-banner {
+  background-color: $unsw-black;
+  color: $unsw-white;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 6px solid $unsw-yellow;
+  margin-bottom: 2rem;
+
+  h1 {
+    color: $unsw-white;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.15rem;
+    max-width: 40em;
+    margin: 0.5rem auto 0;
+    color: $unsw-grey-light;
+  }
+}
+
+// Card grid used on Home, Projects, People, Media
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.info-card {
+  border: 1px solid darken($unsw-grey-light, 8%);
+  border-radius: 6px;
+  padding: 1.25rem;
+  background-color: $unsw-white;
+  transition: box-shadow 0.15s ease-in-out;
+
+  h3 {
+    margin-top: 0;
+    border-bottom: 3px solid $unsw-yellow;
+    padding-bottom: 0.4rem;
+    display: inline-block;
+  }
+
+  &:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  }
+}
+
+// People page profile cards
+.profile-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  border: 1px solid darken($unsw-grey-light, 8%);
+  border-radius: 6px;
+  padding: 1rem;
+  background-color: $unsw-white;
+
+  img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: $unsw-grey-light;
+    flex-shrink: 0;
+  }
+
+  h3 {
+    margin: 0 0 0.15rem 0;
+  }
+
+  .role {
+    color: darken($unsw-yellow, 30%);
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+}
+
+// Media page dated list items
+.media-item {
+  border-left: 4px solid $unsw-yellow;
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin-bottom: 1.25rem;
+
+  .media-date {
+    color: $unsw-grey-dark;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+}
+
+.footer {
+  background-color: $footer-bg;
+  color: $footer-fg;
+
+  a {
+    color: $unsw-yellow;
+  }
+}

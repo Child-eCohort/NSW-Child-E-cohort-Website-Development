@@ -1,0 +1,39 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero-banner}
+# NSW Child E Cohort Program
+
+Understanding the early life origins of child health and development in New South Wales, through linked, population-level data.
+:::
+
+::: {.card-grid}
+
+::: {.info-card}
+### [Projects](projects.qmd)
+Explore the research projects underway within the NSW Child E Cohort Program.
+:::
+
+::: {.info-card}
+### [People](people.qmd)
+Meet the investigators, staff, and students leading and supporting this work.
+:::
+
+::: {.info-card}
+### [Mission](mission.qmd)
+Learn about the aims and background of the Program.
+:::
+
+::: {.info-card}
+### [Publications](publications.qmd)
+Browse papers and reports produced by the Program.
+:::
+
+::: {.info-card}
+### [Media](media.qmd)
+Read news coverage and media mentions of our work.
+:::
+
+:::

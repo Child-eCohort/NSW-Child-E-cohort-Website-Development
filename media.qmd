@@ -1,0 +1,26 @@
+---
+title: "Media"
+---
+
+News coverage and media mentions of the NSW Child E Cohort Program. *[Placeholder entries — replace with real media items, newest first.]*
+
+::: {.media-item}
+<p class="media-date">[Placeholder Month] 2026</p>
+**[Placeholder headline: NSW study links early childhood data to improve outcomes]**
+
+*[Placeholder outlet name.]* Short summary of the coverage. [Read more →](#)
+:::
+
+::: {.media-item}
+<p class="media-date">[Placeholder Month] 2025</p>
+**[Placeholder headline: Program lead discusses child cohort research]**
+
+*[Placeholder outlet name.]* Short summary of the coverage. [Read more →](#)
+:::
+
+::: {.media-item}
+<p class="media-date">[Placeholder Month] 2025</p>
+**[Placeholder headline: New funding announced for NSW child health data linkage]**
+
+*[Placeholder outlet name.]* Short summary of the coverage. [Read more →](#)
+:::

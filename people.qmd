@@ -1,0 +1,69 @@
+---
+title: "People"
+---
+
+The team behind the NSW Child E Cohort Program. *[Placeholder content — replace bios and photos with real team information.]*
+
+## Program Lead
+
+::: {.profile-card}
+![](assets/images/avatar-placeholder.svg)
+
+<div>
+### Dr Kathleen Falster
+<p class="role">Program Lead</p>
+*[Placeholder bio — replace with a short biography, research interests, and links (e.g. UNSW profile, ORCID).]*
+</div>
+:::
+
+## Investigators
+
+::: {.card-grid}
+
+::: {.profile-card}
+![](assets/images/avatar-placeholder.svg)
+
+<div>
+### [Placeholder Name]
+<p class="role">Chief Investigator</p>
+*[Placeholder bio.]*
+</div>
+:::
+
+::: {.profile-card}
+![](assets/images/avatar-placeholder.svg)
+
+<div>
+### [Placeholder Name]
+<p class="role">Associate Investigator</p>
+*[Placeholder bio.]*
+</div>
+:::
+
+:::
+
+## Staff & Students
+
+::: {.card-grid}
+
+::: {.profile-card}
+![](assets/images/avatar-placeholder.svg)
+
+<div>
+### [Placeholder Name]
+<p class="role">Postdoctoral Fellow</p>
+*[Placeholder bio.]*
+</div>
+:::
+
+::: {.profile-card}
+![](assets/images/avatar-placeholder.svg)
+
+<div>
+### [Placeholder Name]
+<p class="role">PhD Candidate</p>
+*[Placeholder bio.]*
+</div>
+:::
+
+:::

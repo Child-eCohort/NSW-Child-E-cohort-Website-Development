@@ -1,0 +1,13 @@
+---
+title: "Publications"
+bibliography: references.bib
+nocite: |
+  @*
+---
+
+Papers and reports produced by the NSW Child E Cohort Program. *[Placeholder entries — replace `references.bib` with the Program's real publications.]*
+
+To add a new publication, add a BibTeX entry to `references.bib` — no other changes are needed; this page and its reference list update automatically.
+
+::: {#refs}
+:::

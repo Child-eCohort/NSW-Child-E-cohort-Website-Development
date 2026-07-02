@@ -1,0 +1,23 @@
+---
+title: "Mission"
+---
+
+## About the Program
+
+*[Placeholder — replace with the Program's actual mission statement.]*
+
+The NSW Child E Cohort Program brings together linked, population-level administrative and health data to understand the early-life factors that shape child health, development, and educational outcomes across New South Wales. The Program is based in the UNSW School of Population Health and led by Dr Kathleen Falster.
+
+## Our aims
+
+- *[Placeholder aim 1 — e.g. build and maintain a linked whole-of-population child cohort for NSW.]*
+- *[Placeholder aim 2 — e.g. investigate early-life determinants of health and developmental outcomes.]*
+- *[Placeholder aim 3 — e.g. translate findings into policy and practice to improve outcomes for children.]*
+
+## Approach
+
+*[Placeholder — describe the Program's data sources, methods, and partnerships, e.g. linked administrative health, education, and welfare records; collaborations with NSW government agencies; approach to data governance and ethics.]*
+
+## Funding & partners
+
+*[Placeholder — list funders, partner agencies, and collaborating institutions.]*
